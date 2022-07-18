@@ -1,0 +1,48 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ol {
+    width: 80%;
+}
+
+li, h1, p {
+    text-align: center;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+ol li a {
+    font-size: 20px;
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    display: block;
+    border: solid white 2px;
+    border-radius: 8px;
+    background-color: #ff8484;
+    line-height: 50px;
+    border-left: 20px;
+}
+
+ol li a:hover {
+    color: aliceblue;
+    display: block;
+    border: solid white 2px;
+    border-radius: 8px;
+    background-color: #ff5f5f;
+    line-height: 50px;
+    border-left: 20px;
+}
+
+ol li a:active {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*************
+Unordered List Style**/
+
+ul li {
+    
+}
