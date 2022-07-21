@@ -21,3 +21,19 @@ let menu3 = ['Home', 'Serviços', 'Portfólio', 'Links'];
 menu3.push('Contato')
 
 console.log(menu3);
+
+//exercicio 1 -- for
+console.log('--exercicio 1--')
+
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
+for (let index = 0; index < groceryList.length; index ++) {
+    console.log(groceryList[index])
+} 
+
+//exercicio 1 -- for/of
+console.log('--exercicio 1--')
+
+let names = ['João', 'Maria', 'Antônio', 'Margarida']
+for (let elementosDaLista of names) {
+    console.log(elementosDaLista)
+}
