@@ -167,4 +167,17 @@ else {
     console.log(validador);
 }
 
-//10. 
+//10. recebe dois valores (custo e venda do produto). calcular lucro que terá ao vender mil desses produtos
+console.log("--exercicio 10--")
+
+const custoProduto = 80;
+const valorVenda = 120;
+const custoTotalProduto = custoProduto + (custoProduto * 0.2);
+
+if (custoTotalProduto < 0 || valorVenda < 0) {
+    console.log("Erro, valores inválidos")
+}
+else {
+    let lucro = (valorVenda - custoTotalProduto) * 1000
+    console.log(lucro)
+}
