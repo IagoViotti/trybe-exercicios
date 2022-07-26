@@ -83,3 +83,6 @@ leitor.livrosFavoritos.push({
 
  //exercicio 8
  console.log('--exercicio 8--')
+
+console.log(leitor.nome + ' tem ' + leitor.livrosFavoritos.length + ' livros favoritos')
+ 
