@@ -17,3 +17,7 @@ main p {
     text-align: justify;
     padding: 1%;
 }
+
+input {
+    margin: 1%;
+}
