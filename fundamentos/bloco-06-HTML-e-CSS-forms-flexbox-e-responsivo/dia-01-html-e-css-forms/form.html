@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TrybeTrip - Formulário</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
 </head>
 <body>
     <head>
@@ -15,56 +16,55 @@
     </head>
     <form action="" method="get">
         <main>
-            <div>
-                <label for="nome">
+            <div class="form-control">
+                <label class="form-label form-text" for="nome">
                     Nome:
                     <input minlength="10" maxlength="40" type="text" id="nome" name="nome">
                 </label> <br> <br>
-                <label for="email">
+                <label class="form-label form-text" for="email">
                     Email:
                     <input minlength="10" maxlength="50" type="text" id="nome" name="nome">
                 </label> <br>
             </div>
-            <div>
-            <label>
-                <input type="radio" id="destino1" name="destino" value="cidade">Cidade
+            <div class="form-control">
+            <label class="form-label form-text">
+                <input class="form-check-input" type="radio" id="destino1" name="destino" value="cidade">Cidade
             </label>
-            <label>
-                <input type="radio" id="destino2" name="destino" value="campo">Campo
+            <label class="form-label form-text">
+                <input class="form-check-input" type="radio" id="destino2" name="destino" value="campo">Campo
             </label>
-            <label>
-                <input type="radio" id="destino3" name="destino" value="praia">Praia
+            <label class="form-label form-text">
+                <input class="form-check-input" type="radio" id="destino3" name="destino" value="praia">Praia
             </label>
-            <label>
-                <input type="radio" id="destino4" name="destino" value="montanhas">Montanhas
+            <label class="form-label form-text">
+                <input class="form-check-input" type="radio" id="destino4" name="destino" value="montanhas">Montanhas
             </label>
                 <br>
             </div>
-            <div>
-                <label for="textArea">Porque você deveria ganhar o concurso?
-                    <br>
+            <div class="form-control">
+                <label class="form-label form-text" for="textArea">Porque você deveria ganhar o concurso?
                 </label>
+                <br>
                 <textarea style="margin-top: 10px;" name="" id="textArea" cols="30" rows="10" maxlength="500" placeholder="seu texto aqui"></textarea>
             </div>
-            <div>
-                <p>Informe a melhor data para a viagem:</p>
-                <label>
+            <div class="form-control form-text">
+                <label class="form-label form-text">Informe a melhor data para a viagem: <br>
                 <input style="margin-left: 10px;" type="date" id="data" name="data">
                 </label>
             </div>
             <br>
-            <div>
-                <label>Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+            <div class="form-control">
+                <label class="form-label form-text">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
                     <br>
-                    <input type="checkbox" name="" id="">
+                    <input class="form-check-input" type="checkbox" name="" id="">
                 </label>
                 <br>
-                <label>Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                <label class="form-label form-text">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
                     <br>
-                    <input type="checkbox" name="" required id="">
+                    <input class="form-check-input" type="checkbox" name="" required id="">
                 </label>
             </div>
-            <div>
+            <div class="form-control">
                 <button type="submit" id="submitButton">Enviar</button>
                 <button type="reset">Apagar</button>
             </div>

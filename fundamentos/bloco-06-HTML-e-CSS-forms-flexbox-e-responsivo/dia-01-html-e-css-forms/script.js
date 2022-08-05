@@ -1,7 +1,7 @@
-const submitButton = document.getElementById('submitButton')
+// const submitButton = document.getElementById('submitButton')
 
-submitButton.addEventListener('click', anulaSubmit)
+// submitButton.addEventListener('click', anulaSubmit)
 
-function anulaSubmit(event) {
-    event.preventDefault();
-}
+// function anulaSubmit(event) {
+//     event.preventDefault();
+// }
