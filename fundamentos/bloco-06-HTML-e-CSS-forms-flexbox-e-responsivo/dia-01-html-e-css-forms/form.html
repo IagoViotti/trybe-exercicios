@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip - Formulário</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head>
+        <h1 class="mb-5">
+            Formulário para concurso TrybeTrip
+        </h1>
+    </head>
+    <form action="" method="get">
+        <main>
+            <div class="mb-3">
+                <label class="form-label" for="nome">
+                    Nome Completo:
+                </label>
+                <input class="form-control mb-3" minlength="10" maxlength="40" type="text" id="nome" name="nome">
+                <label class="form-label" for="email">
+                    E-mail:
+                </label> 
+                <input class="form-control mb-4" minlength="10" maxlength="50" type="text" id="email" name="email">
+            </div>
+            <div class="mb-4 input-group-text">
+                <input class="form-check-input" type="radio" id="destino1" name="destino" value="cidade">
+                <label class="city-label form-check-label form-text" for="destino1">
+                    Cidade
+                </label>
+                <input class="form-check-input" type="radio" id="destino2" name="destino" value="campo">
+                <label class="city-label form-check-label form-text" for="destino2">
+                    Campo
+                </label>
+                <input class="form-check-input" type="radio" id="destino3" name="destino" value="praia">
+                <label class="city-label form-check-label form-text" for="destino3">
+                    Praia
+                </label>
+                <input class="form-check-input" type="radio" id="destino4" name="destino" value="montanhas">
+                <label class="city-label form-check-label form-text" for="destino4">
+                    Montanhas
+                </label>
+            </div>
+            <div class="mb-3">
+                <label class="form-label" for="textArea">Porque você deveria ganhar o concurso?</label>
+                <textarea class="form-control" name="textArea" id="textArea" rows="3" maxlength="500"></textarea>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Informe a melhor data para a viagem:</label>
+                <input class="form-control" type="date" id="data" name="data">
+            </div>
+            <div class="form-control mb-3">
+                <label for="newsCheckbox" class="form-label">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+                </label>
+                <input class="form-check-input ms-1" type="checkbox" name="newsCheckbox" id="newsCheckbox">
+                <label for="imgCheckbox" class="form-label">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+                </label>
+                <input class="form-check-input ms-1" type="checkbox" name="imgCheckbox" required id="imgCheckbox">
+            </div>
+            <div>
+                <button class="btn btn-primary" type="submit" id="submitButton">Enviar</button>
+                <button class="btn btn-secondary" type="reset">Apagar</button>
+            </div>
+        </main>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
