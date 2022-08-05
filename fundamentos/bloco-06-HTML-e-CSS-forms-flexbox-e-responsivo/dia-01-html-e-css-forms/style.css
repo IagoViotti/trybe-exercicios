@@ -1,9 +1,7 @@
-form {
-    /* border: 1px solid blue; */
+body {
+    margin: 5% 10%;
 }
 
-div {
-    margin:10px;
-    /* border: 1px solid red; */
+.city-label {
+    padding: 5px
 }
-
